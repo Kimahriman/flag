@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function isObject(obj) {
+    return Object.prototype.toString.call(obj) === "[object Object]";
+}
+exports.isObject = isObject;
